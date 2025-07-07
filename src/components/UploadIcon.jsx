@@ -1,4 +1,4 @@
-const UploadIcon = ({ className = "" }) => (
+const UploadIcon = () => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -9,7 +9,7 @@ const UploadIcon = ({ className = "" }) => (
         strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={`text-gray-400 mb-4 ${className}`}
+        className={`text-gray-400 mb-4 mx-auto`}
     >
         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
         <circle cx="8.5" cy="8.5" r="1.5"></circle>
