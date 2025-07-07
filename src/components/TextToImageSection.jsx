@@ -25,7 +25,7 @@ const TextToImageSection = () => {
         const payload = {prompt, style};
 
         try {
-            const API_URL = 'http://localhost:8080/api/v1/generate-from-text';
+            const API_URL = 'http://ghibli-backend-production-fd43.up.railway.app:8080/api/v1/generate-from-text';
             const response = await fetch(API_URL, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
