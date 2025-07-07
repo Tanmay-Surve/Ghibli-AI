@@ -43,6 +43,6 @@ ghibli-ai/
 │ └── services/
 └── README.md
 
-🙋‍♂️ Author
+🙋‍♂️ Author : 
 Tanmay Surve
 📧 survetanmay710@gmail.com
